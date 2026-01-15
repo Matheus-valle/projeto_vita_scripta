@@ -23,13 +23,20 @@ header {
     align-items: center;
     justify-content: center;
     margin: 0;
+    text-decoration: none;
    
 }
 
+
+a {
+    text-decoration: none;
+    color: black;
+}
 .titulo_header {
           font-family: "Quintessential", serif;
   font-weight: 400;
   font-style: normal;
+  
   
 }
 .conteiner {
@@ -162,11 +169,15 @@ nav h1 {
     justify-content: center;
     gap: 50px;
     padding: 30px;
+                background-image: url("../assets/atenas_background.jpg");
+                background-size: cover;
+        
    
 }
 
 .card_registro {
     background-color: rgb(252, 122, 0);
+    border: 2px solid rgb(255, 255, 255);
     height: 200px;
         display: flex;
     flex-direction: column;
@@ -180,6 +191,7 @@ nav h1 {
 
 .ir_registro  button{
         background-color: rgb(255, 255, 255);
+
     width: 300px;
     height: 50px;
     border-radius: 20px;
