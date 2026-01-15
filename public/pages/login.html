@@ -34,15 +34,17 @@
             </div>
             <div>
                 <p>Email:</p>
-                <input type="text">
+                <input type="text" id="input_email">
             </div>
                         <div>
                 <p>Senha:</p>
-                <input type="password">
+                <input type="password" id="input_senha">
             </div>
             <div>
-                <button>Entrar</button>
+                <button onclick="login()">Entrar</button>
             </div>
+
+            <div id="div_erro"></div>
 
 
         </section>
@@ -57,5 +59,7 @@
         <h1>Desenvolvido por Matheus Valle</h1><br>
         <p>2026</p>
     </footer>
+
+    <script src="../script/registro.js"></script>
 </body>
 </html>
