@@ -56,3 +56,23 @@ header {
     font-family: "Faculty Glyphic", sans-serif;
     font: bold;
 }
+
+nav {
+    background-color: blueviolet;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/fundo_nav.png");
+    background-size: cover;
+}
+
+nav h1 {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    nav h1{
+        font-size: 25px;
+    }
+}
