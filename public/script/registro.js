@@ -8,6 +8,12 @@ function login() {
     } else {
         console.log("passou")
         div_erro.innerHTML = `` 
+
+        if(email == "matheus@gmail.com" && senha == "12345678") {
+        window.location = "../pages/pages_usuario/tela_post.html"; 
+    } else {
+         div_erro.innerHTML = `<b style="color: red;">Senha Invalida!</b>`
+    } 
     }
     
 }
