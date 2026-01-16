@@ -3,18 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pagina Usuario</title>
+    <link rel="stylesheet" href="../../style/posts.css">
+        <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quintessential&family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Quintessential&family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-         <a href="index.html"><h1>Vita Scripta</h1></a>
+        <div class="div_header">
+         <a href="../index.html"><h1>Vita Scripta</h1></a>
 
-         <button>BAIXAR</button>
-    </header>
+         <h1>Olá Usuario</h1>
+         <button>BAIXAR SEU <br> LEGADO</button>
+        </div>
+        </header>
 
-    <div>
+    <section class="div_geral">
+        <div class="header_horizontal">
+            <a href="tela_criar_post.html">Registrar pensamento</a>
+            <a href="dashs.html">Dados</a>
+        </div>
+        <div class="pensamentos">
+            <h1>Últimos Pensamentos</h1>
 
-        
-    </div>
+            <div class="card_pensamento" onclick="ir_pensamento()">
+                <div class="pensamento_primeira_linha">
+                <div class="titulo_pensamento">
+                    <h1>O burro e a sela</h1>
+                </div>
+
+                <div>
+                    <p>FEITO NO DIA: 13/09/2025</p>
+                </div>
+                </div>
+
+                <div class="legenda">
+                    <p>kasnknknknknknkndaskdnaskdnaksdnaksdnaksdnaskdnaksdnakdnakmdakdmaksmdakdmasasddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</p>
+                </div>
+            </div>               
+            
+        </div>
+    </section>
 </body>
 </html>
+
+<script>
+    function ir_pensamento() {
+        window.location = "pensamento.html"
+
+    }
+</script>

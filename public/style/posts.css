@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(252, 122, 0) ;
+    font-family: "Faculty Glyphic", sans-serif;
+}
+
+
+header {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-family: "Quintessential", serif;
+}
+
+
+header button {
+    background-color: white;
+    border: 0px;
+    border-radius: 15px;
+    width: 120px;
+    height: 40px;
+    font-family: "Faculty Glyphic", sans-serif;
+    cursor: pointer;
+}
+.div_header {
+   
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+
+.div_geral {
+    display: flex;
+}
+
+.header_horizontal {
+    background-color: rgb(121, 60, 4);
+    width: 250px;
+    height: 300px;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+
+}
+
+.header_horizontal a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.pensamentos {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.card_pensamento {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(121, 60, 4);
+    border-radius: 15px;
+    width: 750px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.pensamento_primeira_linha {
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    
+}
+
+.legenda {
+    width: 750px;
+    text-align: justify;
+    word-break: break-word;
+    
+    font-size: 15px;
+}
